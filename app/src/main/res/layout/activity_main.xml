@@ -1,0 +1,60 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#F5F5F5">
+
+    <!-- LISTA DE PRODUTOS -->
+    <ListView
+        android:id="@+id/list_products"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:dividerHeight="8dp"
+        android:padding="16dp"
+        android:background="#F5F5F5"/>
+
+    <!-- PAINEL DIREITO -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="#FFFFFF">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selecione um produto"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/txt_details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informações aparecerão aqui"
+            android:textSize="16sp"
+            android:paddingBottom="24dp"/>
+
+        <Button
+            android:id="@+id/btn_config_printer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚙️ Configurar Impressora"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/print_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🖨️ IMPRIMIR"
+            android:textSize="20sp"
+            android:padding="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>
