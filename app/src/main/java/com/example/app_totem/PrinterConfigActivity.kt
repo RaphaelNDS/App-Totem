@@ -5,6 +5,7 @@ import android.hardware.usb.UsbManager
 import android.os.Bundle
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+import com.example.totem_hospital.R
 
 class PrinterConfigActivity : AppCompatActivity() {
 

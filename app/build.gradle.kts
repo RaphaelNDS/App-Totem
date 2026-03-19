@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.app_totem"
+    namespace = "com.example.totem_hospital"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.app_totem"
+        applicationId = "com.example.totem_hospital"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
